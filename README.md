@@ -17,3 +17,15 @@ Compile:
 
 Run compiled executable:
 `./main`
+
+### Demos
+
+Entering values:
+
+https://github.com/ng432/sudoku_cli/assets/73446355/139b434a-6ceb-4799-bcc0-c1d94ea4c888
+
+Basic depth first solver:
+
+https://github.com/ng432/sudoku_cli/assets/73446355/6753bdbc-7d2f-4832-8d62-7836f227a499
+
+
