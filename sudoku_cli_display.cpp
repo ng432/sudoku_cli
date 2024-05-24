@@ -32,7 +32,11 @@ int SudokuCliDisplay::exec()
 
 void SudokuCliDisplay::clearScreen() const
 {
-    std::cout << "\x1B[2J\x1B[H";
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
 }
 
 //------------------------------------------------------------------------------------------
