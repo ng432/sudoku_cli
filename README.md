@@ -11,9 +11,9 @@ I wrote this as an exercise in C++ fundamentals, and object-oriented programming
 ### Build instructions
 
 Compile:
-clang++ -std=c++17 -o main main.cpp sudoku.cpp sudoku_cli_display.cpp
+`clang++ -std=c++17 -o main main.cpp sudoku.cpp sudoku_cli_display.cpp`
 
 ### Usage
 
 Run compiled executable:
-./main
+`./main`
